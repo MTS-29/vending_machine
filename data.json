@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "productId": 1,
+            "productName": "Soda",
+            "amountAvailable": 10,
+            "cost": 75,
+            "sellerId": "seller1"
+        },
+        {
+            "productId": 2,
+            "productName": "Chips",
+            "amountAvailable": 18,
+            "cost": 50,
+            "sellerId": "seller1"
+        }
+    ],
+    "users": [
+        {
+            "username": "seller1",
+            "password": "pass1",
+            "role": "seller",
+            "deposit": 0
+        },
+        {
+            "username": "buyer1",
+            "password": "pass2",
+            "role": "buyer",
+            "deposit": 100
+        }
+    ]
+}
